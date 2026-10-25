@@ -1,0 +1,29 @@
+{
+  "name": "opencode-axonhub-tracing",
+  "version": "2.0.0",
+  "description": "AxonHub trace headers (AH-Thread-Id / AH-Trace-Id) plugin for OpenCode v2",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "axonhub",
+    "tracing",
+    "llm-gateway"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dq188/opencode-axonhub-tracing.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
